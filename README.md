@@ -24,8 +24,8 @@ This is a free exercise from [frontendmentor.io] which utilizes the fundamentals
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Exc1D/recipe-page.git]
+- Live Site URL: [https://exc1d.github.io/recipe-page/]
 
 ## My process
 
