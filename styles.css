@@ -30,6 +30,7 @@
   --spacing-500: 2.5rem;
   --spacing-600: 3rem;
   --spacing-1600: 8rem;
+  --spacing-3200: 41rem;
 }
 
 html {
@@ -40,6 +41,7 @@ html {
   letter-spacing: 0%;
   text-align: left;
   line-height: 150%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -53,7 +55,7 @@ body {
 }
 
 .card {
-  width: 736px;
+  width: 46rem;
   height: auto;
 
   display: flex;
@@ -68,19 +70,28 @@ body {
 }
 
 img {
-  max-width: 656px;
-  height: 300px;
+  max-width: var(--spacing-3200);
+  height: 18.75rem;
   border-radius: var(--spacing-150);
 }
 
+nav {
+  width: 100%;
+  max-width: 46rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+}
+
 h1 {
-  width: 656px;
+  width: var(--spacing-3200);
   height: var(--spacing-500);
 
   color: var(--black);
 
   font-family: "Young-serif", serif;
-  font-size: 40px;
+  font-size: var(--font-xl);
   font-weight: 400;
   line-height: 100%;
   letter-spacing: 0%;
@@ -88,7 +99,7 @@ h1 {
 }
 
 h2 {
-  width: 656px;
+  width: var(--spacing-3200);
   height: 28px;
 
   font-family: "Young-serif";
@@ -101,8 +112,8 @@ li::marker {
   color: var(--red);
 }
 
-.prep {
-  width: 656px;
+#prep {
+  width: var(--spacing-3200);
   height: 172px;
 
   gap: var(--spacing-200, 16);
@@ -112,7 +123,7 @@ li::marker {
   border-radius: var(--spacing-150);
   background: rgba(255, 247, 251, 1);
 }
-#prep-t {
+#prep p {
   margin: 0 0 1rem 0;
   color: var(--pink);
   font-weight: 600;
@@ -120,14 +131,14 @@ li::marker {
 }
 
 .line {
-  width: 656px;
+  width: var(--spacing-3200);
   height: 0;
   margin: 0;
   border: 1px solid rgba(227, 221, 215, 1);
 }
 
 table {
-  width: 656px;
+  width: var(--spacing-3200);
   border-collapse: collapse;
   margin-top: var(--spacing-300);
 }
@@ -151,7 +162,7 @@ table tr:last-child {
   font-weight: 700;
 }
 .attribution {
-  font-size: 11px;
+  font-size: 0.688rem;
   text-align: center;
 }
 .attribution a {
