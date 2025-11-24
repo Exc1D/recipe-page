@@ -52,6 +52,7 @@ body {
   gap: 0.5rem;
   padding: var(--spacing-1600) var(--spacing-600);
   background: rgba(243, 229, 215, 1);
+  margin: 0;
 }
 
 .card {
@@ -169,9 +170,9 @@ table tr:last-child {
   color: hsl(228, 45%, 44%);
 }
 
-@meda (max-width: 768px) {
+@media (max-width: 768px) {
   body {
-    padding: 2rem 1 rem;
+    padding: 2rem 2rem;
   }
 
   .card {
